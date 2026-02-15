@@ -30,7 +30,7 @@ body {
     min-height: 100vh; /* 보이는 화면을 최소 높이로 */
     height: auto; /* 보이는 화면보다 내용이 많으면 자동으로 높이설정 */
 
-    border-bottom: 1px solid #ff6500;
+    border-bottom: 1px solid #c9e06d;
 }
 
 /* 영문에 적용할 클래스 */
@@ -38,10 +38,30 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
+.B {
+    color: whitesmoke;
+}
+
+#title {
+    color: whitesmoke;
+}
+
 body {
-    background-color: #000;
-    color: #fff;
+    background-image: url(img/image6.jpg);
+}
+
+body {
+    background-color: #171717;
+    color: rgba(255, 255, 255, 0.7);
     font-family: "Noto Sans KR", sans-serif;
+}
+
+#A {
+    color: whitesmoke;
+}
+
+.A {
+    color: whitesmoke;
 }
 
 header {
@@ -87,15 +107,15 @@ header .gnb ul li a {
 }
 
 header .gnb ul li.active a {
-    background-color: #fff;
-    color: #ff6500;
+    background-color:#c9e06d;
+    color:#171717;
     font-weight: 400;
     font-weight: 400;
 }
 
 
 #home {
-    background-image: url(img/bg_orange.png);
+    background-image: url(img/image3.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 60% 100%;
@@ -162,7 +182,7 @@ section.project {
     padding-left: 100px;
     padding-bottom: 100px;
     box-sizing: border-box;
-    background-color: #ff6500;
+    background-color: #c9e06d;
 }
 .project-side .fixed-box {
     position: sticky;
@@ -256,8 +276,8 @@ section.project {
 
 #info .project-side {
     background-color: transparent;
-    border-right: 1px solid #ff6500;
-    color: #ff6500;
+    border-right: 1px solid #c9e06d;
+    color: #c9e06d;
 }
 
 
@@ -313,7 +333,7 @@ section.project {
 
 #contact .content .personal a:hover {
     text-decoration: underline;
-    color: #ff6500;
+    color: #c9e06d;
 }
 
 footer {
